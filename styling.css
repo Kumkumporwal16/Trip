@@ -1,0 +1,157 @@
+.icon {
+
+    height: 80px;
+    width: 150px
+}
+
+.image {
+    height: 350px;
+    width: 250px;
+
+}
+
+#search {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 0px;
+
+}
+
+button {
+    height: 30px;
+    padding-right: 0px;
+
+}
+
+
+
+
+
+/*footer */
+.footer {
+
+    width: 100%;
+    background-image: url("footer-bg.jpg");
+    background-size: cover;
+
+
+}
+
+ul li {
+
+    list-style: none;
+    padding: 10px
+}
+
+.card-couple {
+    width: 320px;
+    
+}
+.card4{
+height:320px;
+    width:305px
+}
+
+/*mid*/
+.cardfooter {
+    height: 50px;
+    width: 150px;
+    background: orange;
+    font-size: 23px;
+    border-radius: 30px;
+    font-family: 'Gill Sans';
+    margin-left: 40px;
+    color: white;
+    border: none
+}
+
+span {
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.row .card .card-img{
+height:240px;
+width:200px
+
+
+}
+.row .card{
+    width:250px
+}
+
+
+#heading{
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+/*desination ends*/
+
+
+
+
+/*home*/
+body{
+
+overflow-x: hidden;
+
+}
+/*about*/
+.imgicon{
+height:70px;
+width:70px
+
+}
+.nav-item a:active{
+background-color: gray;
+
+}
+.nav-item a:hover{
+background-color: aquamarine;
+
+}
+
+ .image{
+    width: 100%;
+    transition: all .3s ease-in-out;
+  }
+  
+  .image:hover   {
+    transform: scale(1.1);
+  }
+
+  .cardfooter{
+   
+    transition: all .3s ease-in-out;
+  }
+  
+  .cardfooter:hover   {
+    transform: scale(1.1);
+  }
+
+  .media-1 .img-fluid {
+	
+	
+	transition: .3s ease-in-out;
+}
+.media-1 .img-fluid:hover  {
+	
+	transform: scale(1.2);
+}
+
+
+
+.card .card-img {
+	opacity: 1;
+	
+	transition: .3s ease-in-out;
+}
+.card .card-img:hover  {
+	opacity: .5;
+}
+
+
+
+

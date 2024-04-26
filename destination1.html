@@ -1,0 +1,403 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="styling.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+</head>
+
+<body>
+
+    <!--navbar start-->
+
+    <nav class="navbar navbar-expand-lg navbar-light text-dark bg-white fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="icon" src="logo.jpeg" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about1.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="destination1.html">Destination</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog1.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact1.html">contact</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav><br><br><br><br>
+    <!--navbar ends -->
+
+
+    <br><br><br>
+
+
+
+
+
+
+    <!--best place destination-->
+    <div class="container-fluid">
+
+        <h1 class="text-center display-3">Best Place Destination</h1>
+
+        <div class="d-flex justify-content-around flex-wrap ">
+            <div> <img class="image my-2" src="place-1.jpg" />
+                <h3 class="image-text text-center bg-dark text-white" id="heading">Singapore</h3>
+            </div>
+            <div> <img class="image my-2" src="place-2.jpg" />
+                <h3 class="image-text text-center bg-dark text-white" id="heading">Canada</h3>
+            </div>
+            <div> <img class="image my-2" src="place-3.jpg" />
+                <h3 class="image-text text-center bg-dark text-white" id="heading">Thailand</h3>
+            </div>
+            <div> <img class="image my-2" src="place-4.jpg" />
+                <h3 class="image-text text-center bg-dark text-white" id="heading">Austrailia</h3>
+            </div>
+        </div>
+    </div><br><br><br>
+    <div class="container" data-aos="zoom-out-up">
+        <div class="row bg-dark text-white justify-content-between pb-2 px-2 pt-2">
+            <div class="py-1 pb-1  mx-1 col-lg-2 col-md-4 col-sm-12">
+                <div>
+                    <h5>Destination</h5>
+                </div>
+                <div><input type="text" placeholder="search"></div>
+
+            </div>
+
+            <div class="py-1  mx-1 col-lg-2 col-md-4 col-sm-12">
+                <div>
+                    <h5>Check-in-date</h5>
+                </div>
+                <div>
+
+                    <input type="text" placeholder="Check-in-date">
+                </div>
+
+            </div>
+            <div class="py-1 pb-2 mx-1 col-lg-2 col-md-4 col-sm-12">
+                <div>
+                    <h5>Check-out</h5>
+                </div>
+                <div><input type="text" placeholder="Check-out-date"></div>
+
+            </div>
+            <div class="py-1 pb-2 mx-1 col-lg-2 col-md-4 col-sm-12">
+                <div>
+                    <h5>Price Limit</h5>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-white text-secondary pt-1" type="button"
+                        id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        $5000
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item" href="#">$6000</a></li>
+                        <li><a class="dropdown-item" href="#">$7000</a></li>
+                        <li><a class="dropdown-item" href="#">$8000</a></li>
+                        <li><a class="dropdown-item" href="#">$9000</a></li>
+                        <li><a class="dropdown-item" href="#">$10000</a></li>
+                        <li><a class="dropdown-item" href="#">$11000</a></li>
+                        <li><a class="dropdown-item" href="#">$12000</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="rounded-lg col-lg-2 col-md-8 col-sm-12  ">
+                <button class="btn bg-warning my-3 px-3 rounded-lg" id="search" type="submit">Search</button>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+    </div>
+    </div><br><br><br>
+
+    <div class="container ">
+        <h1 class="text-center display-1">Tour Destination</h1>
+        <div class="row justify-content-around">
+
+            <div class="card-mid col-md-6 col-lg-4 col-sm-12 my-4 text-dark " data-aos="zoom-in-down">
+                <img src="destination-6.jpg" class="card-img" alt="...">
+                <div class="card-footer">
+                    <button class="cardfooter">$500/person</button><br>
+                    <span>10 Days Tour</span>
+                    <h3>Kabul,Afghanistan</h3>
+                </div>
+            </div>
+
+            <div class="card-mid col-md-6 col-lg-4 col-sm-12 my-4 text-dark" data-aos="zoom-in-down">
+                <img src="destination-7.jpg" class="card-img" alt="...">
+                <div class="card-footer">
+                    <button class="cardfooter">$500/person</button><br>
+                    <span>10 Days Tour</span>
+                    <h3>Bali,Indonesia</h3>
+                </div>
+            </div>
+
+
+            <div class="card-mid col-md-6 col-lg-4 col-sm-12 my-4 text-dark" data-aos="zoom-in-down">
+                <img src="destination-8.jpg" class="card-img" alt="...">
+                <div class="card-footer">
+                    <button class="cardfooter">$500/person</button><br>
+                    <span>10 Days Tour</span>
+                    <h3>Port Louis,Mauritius</h3>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <div class="container ">
+
+        <div class="row justify-content-around">
+
+            <div class="card-mid col-md-6 col-lg-4 col-sm-12 my-4 text-dark" data-aos="zoom-in-down">
+                <img src="destination-9.jpg" class="card-img" alt="...">
+                <div class="card-footer">
+                    <button class="cardfooter">$500/person</button><br>
+                    <span>10 Days Tour</span>
+                    <h3>Male,Maldives</h3>
+                </div>
+            </div>
+
+            <div class="card-mid col-md-6 col-lg-4 col-sm-12 my-4 text-dark" data-aos="zoom-in-down">
+                <img src="destination-2.jpg" class="card-img" alt="...">
+                <div class="card-footer">
+                    <button class="cardfooter">$500/person</button><br>
+                    <span>10 Days Tour</span>
+                    <h3>Muscat,Oman</h3>
+                </div>
+            </div>
+
+
+            <div class="card-mid col-md-6 col-lg-4 col-sm-12 my-4 text-dark" data-aos="zoom-in-down">
+                <img src="destination-11.jpg" class="card-img" alt="...">
+                <div class="card-footer">
+                    <button class="cardfooter">$500/person</button><br>
+                    <span>10 Days Tour</span>
+                    <h3>Bali,Indonesia</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container ">
+
+        <div class="row justify-content-around">
+
+            <div class="card-mid col-md-6 col-lg-4 col-sm-12 my-4 text-dark" data-aos="zoom-in-down">
+                <img src="destination-4.jpg" class="card-img" alt="...">
+                <div class="card-footer">
+                    <button class="cardfooter">$500/person</button><br>
+                    <span>10 Days Tour</span>
+                    <h3>Dhaka,Bangladesh</h3>
+                </div>
+            </div>
+
+            <div class="card-mid col-md-6 col-lg-4 col-sm-12 my-4 text-dark" data-aos="zoom-in-down">
+                <img src="destination-5.jpg" class="card-img" alt="...">
+                <div class="card-footer">
+                    <button class="cardfooter">$500/person</button><br>
+                    <span>10 Days Tour</span>
+                    <h3>Rabbat,Morroco</h3>
+                </div>
+            </div>
+
+
+            <div class="card-mid col-md-6 col-lg-4 col-sm-12 my-4 text-dark" data-aos="zoom-in-down">
+                <img src="destination-3.jpg" class="card-img" alt="...">
+                <div class="card-footer">
+                    <button class="cardfooter">$500/person</button><br>
+                    <span>10 Days Tour</span>
+                    <h3>Bali,Indonesia</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+   
+
+
+  
+
+    <br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--footer start-->
+    <div class="container-fluid justify-content-around">
+        <div class="row has-bg-img col-lg-12 col-md-12 col-sm-12 bg-image img-responsive" id="footer"
+            style="background-image: url('footer-bg.jpg');background-size: cover; ">
+
+
+            <div class="col-lg-3 col-md-6 col-sm-6 py-5 px-5 text-white">
+                <div>
+                    <h4>Trip advisor</h4>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolo adipisicing elit. Nesciunt nulla impedit totam quia earum minus doloribus
+                        dolorem, atque saepe illo recusandae?</p>
+                </div><br><br><br>
+
+                <div class="container">
+                    <i class="fa-brands fa-twitter fa-fade fa-2xl" style="padding-right: 15px;"></i>
+                    <i class="fa-brands fa-facebook-f fa-fade fa-2xl" style="padding-right: 15px;"></i>
+                    <i class="fa-brands fa-instagram fa-fade fa-2xl" style="padding-right: 15px;"></i>
+                </div>
+
+
+
+
+
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 py-5 text-white">
+                <div>
+
+                </div>
+                <div>
+                    <ul>
+                        <h4>Information</h4>
+                        <li>Online Enquiry</li>
+                        <li> General Enquiries</li>
+                        <li> Booking Conditions</li>
+                        <li> Booking Conditions</li>
+                        <li> Privacy and Policy</li>
+                        <li> Refund Policy</li>
+                        <li> Call Us</li>
+                    </ul>
+
+
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 py-5 text-white">
+                <div>
+
+                </div>
+                <div>
+                    <ul>
+                        <h4>Experience</h4>
+                        <li>Adventure</li>
+                        <li>Hotel and Restaurant</li>
+                        <li>Beach</li>
+                        <li>Nature</li>
+                        <li>Camping</li>
+                        <li> Party</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="col-lg-3 col-md-6 col-sm-6 py-5 text-white">
+
+                <div class="last">
+                    <ul>
+                        <h4>Have a Questions?</h4>
+                        <li> <i class="fa-solid fa-location-dot" style="color:white;padding-right: 10px;"></i> 203 Fake
+                            St. Mountain View, San Francisco,
+                            California, USA</li>
+                        <li><i class="fa-solid fa-phone" style="color:white;padding-right: 10px;"></i> +2 392
+                            3929 210</li>
+                        <li><i class="fa-solid fa-envelope"
+                                style="color:white;padding-right: 10px"></i>info@yourdomain.com</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div>
+                <p style="color:white;text-align:center;background: rgb(25, 22, 22);padding:10px">Copyright ©2023 All
+                    rights reserved | This template is made with <i class="fa-solid fa-heart" style="color:white"></i>
+                    by Colorlib</p>
+
+            </div>
+        </div>
+
+    </div>
+    <!--footer end-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
